@@ -1,9 +1,8 @@
-Folder Structure Conventions
-============================
-
+# 📁 Folder Structure Conventions
 > Folder structure options and naming conventions for software projects
 
-### A typical top-level directory layout
+---
+## A typical top-level directory layout
 
     .
     ├── build                   # Compiled files (alternatively `dist`)
@@ -17,16 +16,39 @@ Folder Structure Conventions
 > Use short lowercase names at least for the top-level files and folders except
 > `LICENSE`, `README.md`
 
-### Source files
+## Source files
 
 The actual source files of a software project are usually stored inside the
 `src` folder. Alternatively, you can put them into the `lib` (if you're
 developing a library), or into the `app` folder (if your application's source
 files are not supposed to be compiled).
 
-> **Samples**: [jQuery](https://github.com/jquery/jquery) `src`, [Node.js](https://github.com/nodejs/node) `lib` and `src`, [D3.js](https://github.com/mbostock/d3) `src`, [AngularJS](https://github.com/angular/angular.js) `src`, [Adobe Brackets](https://github.com/adobe/brackets) `src`, [three.js](https://github.com/mrdoob/three.js) `src`, [Express](https://github.com/visionmedia/express) `lib`, [Socket.IO](https://github.com/LearnBoost/socket.io) `lib`, [Less.js](https://github.com/less/less.js) `lib`, [Redis](https://github.com/antirez/redis) `src`, [Ace](https://github.com/ajaxorg/ace) `lib`, [Semantic UI](https://github.com/Semantic-Org/Semantic-UI) `src`, [Zepto.js](https://github.com/madrobby/zepto) `src`, [Emscripten](https://github.com/kripken/emscripten) `src`, [RethinkDB](https://github.com/rethinkdb/rethinkdb) `src`, [Bitcoin](https://github.com/bitcoin/bitcoin) `src`, [MongoDB](https://github.com/mongodb/mongo) `src`, [Facebook React](https://github.com/facebook/react) `src`, [Rust](https://github.com/mozilla/rust) `src`, [ASP.NET](https://aspnetwebstack.codeplex.com/SourceControl/latest) `src`, [SignalR](https://github.com/SignalR/SignalR) `src`, [libgit2](https://github.com/libgit2/libgit2) `src`
+### Samples: 
 
-### Automated tests
+> 1. [jQuery](https://github.com/jquery/jquery) `src`, 
+> 2. [Node.js](https://github.com/nodejs/node) `lib` and `src`, 
+> 3. [D3.js](https://github.com/mbostock/d3) `src`, 
+> 4. [AngularJS](https://github.com/angular/angular.js) `src`, 
+> 5. [Adobe Brackets](https://github.com/adobe/brackets) `src`, 
+> 6. [three.js](https://github.com/mrdoob/three.js) `src`, 
+> 7. [Express](https://github.com/visionmedia/express) `lib`, 
+> 8. [Socket.IO](https://github.com/LearnBoost/socket.io) `lib`, 
+> 9. [Less.js](https://github.com/less/less.js) `lib`, 
+> 10. [Redis](https://github.com/antirez/redis) `src`, 
+> 11. [Ace](https://github.com/ajaxorg/ace) `lib`, 
+> 12. [Semantic UI](https://github.com/Semantic-Org/Semantic-UI) `src`, 
+> 13. [Zepto.js](https://github.com/madrobby/zepto) `src`, 
+> 14. [Emscripten](https://github.com/kripken/emscripten) `src`, 
+> 15. [RethinkDB](https://github.com/rethinkdb/rethinkdb) `src`, 
+> 16. [Bitcoin](https://github.com/bitcoin/bitcoin) `src`, 
+> 17. [MongoDB](https://github.com/mongodb/mongo) `src`, 
+> 18. [Facebook React](https://github.com/facebook/react) `src`, 
+> 19. [Rust](https://github.com/mozilla/rust) `src`, 
+> 20. [ASP.NET](https://aspnetwebstack.codeplex.com/SourceControl/latest) `src`, 
+> 21. [SignalR](https://github.com/SignalR/SignalR) `src`, 
+> 22. [libgit2](https://github.com/libgit2/libgit2) `src`
+
+## Automated tests
 
 Automated tests are usually placed into the `test` or, less commonly, into the `spec` or `tests` folder.
 
@@ -42,9 +64,37 @@ Automated tests are usually placed into the `test` or, less commonly, into the `
     │   └── unit                # Unit tests
     └── ...
 
-> **Samples**: [jQuery](https://github.com/jquery/jquery), [Node.js](https://github.com/joyent/node), [D3.js](https://github.com/mbostock/d3), [AngularJS](https://github.com/angular/angular.js), [Adobe Brackets](https://github.com/adobe/brackets), [three.js](https://github.com/mrdoob/three.js), [Express](https://github.com/visionmedia/express), [Socket.IO](https://github.com/LearnBoost/socket.io), [Less.js](https://github.com/less/less.js), [Bower](https://github.com/bower/bower), [Mozilla PDF.js](https://github.com/mozilla/pdf.js), [Grunt](https://github.com/gruntjs/grunt), [Gulp](https://github.com/gulpjs/gulp), [Semantic UI](https://github.com/Semantic-Org/Semantic-UI), [Zepto.js](https://github.com/madrobby/zepto), [Jade](https://github.com/visionmedia/jade), [RethinkDB](https://github.com/rethinkdb/rethinkdb), [Vagrant](https://github.com/mitchellh/vagrant), [Sails.js](https://github.com/balderdashy/sails), [GitHub Hubot](https://github.com/github/hubot), [Facebook React](https://github.com/facebook/react), [Ansible](https://github.com/ansible/ansible), [ASP.NET](https://aspnetwebstack.codeplex.com/SourceControl/latest), [browserify](https://github.com/substack/node-browserify), [Paper.js](https://github.com/paperjs/paper.js), [Julia](https://github.com/JuliaLang/julia), [Karma](https://github.com/karma-runner/karma)
+### Samples: 
 
-### Documentation files
+> 1. [jQuery](https://github.com/jquery/jquery)
+> 2. [Node.js](https://github.com/joyent/node)
+> 3. [D3.js](https://github.com/mbostock/d3)
+> 4. [AngularJS](https://github.com/angular/angular.js)
+> 5. [Adobe Brackets](https://github.com/adobe/brackets)
+> 6. [three.js](https://github.com/mrdoob/three.js)
+> 7. [Express](https://github.com/visionmedia/express)
+> 8. [Socket.IO](https://github.com/LearnBoost/socket.io)
+> 9. [Less.js](https://github.com/less/less.js)
+> 10. [Bower](https://github.com/bower/bower)
+> 11. [Mozilla PDF.js](https://github.com/mozilla/pdf.js)
+> 12. [Grunt](https://github.com/gruntjs/grunt)
+> 13. [Gulp](https://github.com/gulpjs/gulp)
+> 14. [Semantic UI](https://github.com/Semantic-Org/Semantic-UI)
+> 15. [Zepto.js](https://github.com/madrobby/zepto)
+> 16. [Jade](https://github.com/visionmedia/jade)
+> 17. [RethinkDB](https://github.com/rethinkdb/rethinkdb)
+> 18. [Vagrant](https://github.com/mitchellh/vagrant)
+> 19. [Sails.js](https://github.com/balderdashy/sails)
+> 20. [GitHub Hubot](https://github.com/github/hubot)
+> 21. [Facebook React](https://github.com/facebook/react)
+> 22. [Ansible](https://github.com/ansible/ansible)
+> 23. [ASP.NET](https://aspnetwebstack.codeplex.com/SourceControl/latest)
+> 24. [browserify](https://github.com/substack/node-browserify)
+> 25. [Paper.js](https://github.com/paperjs/paper.js)
+> 26. [Julia](https://github.com/JuliaLang/julia)
+> 27. [Karma](https://github.com/karma-runner/karma)
+
+## Documentation files
 
 Often it is beneficial to include some reference data into the project, such as
 Rich Text Format (RTF) documentation, which is usually stored into the `docs`
@@ -60,7 +110,29 @@ or, less commonly, into the `doc` folder.
     │   └── ...                 # etc.
     └── ...
 
-> **Samples**: [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate) `doc`, [Backbone](https://github.com/jashkenas/backbone) `docs`, [three.js](https://github.com/mrdoob/three.js) `docs`, [GitLab](https://github.com/gitlabhq/gitlabhq) `doc`, [Underscore.js](https://github.com/jashkenas/underscore) `docs`, [Discourse](https://github.com/emberjs/ember.js) `docs`, [Grunt](https://github.com/gruntjs/grunt) `docs`, [Emscripten](https://github.com/kripken/emscripten) `docs`, [RethinkDB](https://github.com/rethinkdb/rethinkdb) `docs`, [RequireJS](https://github.com/jrburke/requirejs) `docs`, [GitHub Hubot](https://github.com/github/hubot) `docs`, [Twitter Flight](https://github.com/flightjs/flight) `doc`, [Video.js](https://github.com/videojs/video.js) `docs`, [Bitcoin](https://github.com/bitcoin/bitcoin) `doc`, [MongoDB](https://github.com/mongodb/mongo) `docs`, [Facebook React](https://github.com/facebook/react) `docs`, [libgit2](https://github.com/libgit2/libgit2) `docs`, [Stylus](https://github.com/LearnBoost/stylus) `docs`, [Gulp](https://github.com/gulpjs/gulp) `docs`, [Brunch](https://github.com/brunch/brunch) `docs`
+### Samples: 
+
+> 1. [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate) `doc`, 
+> 2. [Backbone](https://github.com/jashkenas/backbone) `docs`
+> 3. [three.js](https://github.com/mrdoob/three.js) `docs`
+> 4. [GitLab](https://github.com/gitlabhq/gitlabhq) `doc`
+> 5. [Underscore.js](https://github.com/jashkenas/underscore) `docs`
+> 6. [Discourse](https://github.com/emberjs/ember.js) `docs`
+> 7. [Grunt](https://github.com/gruntjs/grunt) `docs`
+> 8. [Emscripten](https://github.com/kripken/emscripten) `docs`
+> 9. [RethinkDB](https://github.com/rethinkdb/rethinkdb) `docs`
+> 10. [RequireJS](https://github.com/jrburke/requirejs) `docs`
+> 11. [GitHub Hubot](https://github.com/github/hubot) `docs`
+> 12. [Twitter Flight](https://github.com/flightjs/flight) `doc`
+> 13. [Video.js](https://github.com/videojs/video.js) `docs`
+> 14. [Bitcoin](https://github.com/bitcoin/bitcoin) `doc`
+> 15. [MongoDB](https://github.com/mongodb/mongo) `docs`
+> 16. [Facebook React](https://github.com/facebook/react) `docs`
+> 17. [libgit2](https://github.com/libgit2/libgit2) `docs`
+> 18. [Stylus](https://github.com/LearnBoost/stylus) `docs`
+> 19. [Gulp](https://github.com/gulpjs/gulp) `docs`
+> 20. [Brunch](https://github.com/brunch/brunch) `docs`
+
 
 ### Scripts
 
